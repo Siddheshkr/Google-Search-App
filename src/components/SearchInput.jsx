@@ -39,8 +39,16 @@ const SearchInput = () => {
             onClick={() => setSearchQuery("")}
           />
         )}
-        <img className="h-6 w-6  cursor-pointer" src={MicIcon} alt="" />
-        <img className="h-6 w-6 cursor-pointer" src={ImageIcon} alt="" />
+        <img
+          className="h-6 w-6 relative right-6 md:right-0 cursor-pointer"
+          src={MicIcon}
+          alt=""
+        />
+        <img
+          className="h-6 w-6 relative right-6 md:right-0 cursor-pointer"
+          src={ImageIcon}
+          alt=""
+        />
       </div>
     </div>
   );

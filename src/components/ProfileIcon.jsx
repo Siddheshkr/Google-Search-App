@@ -1,6 +1,6 @@
 import { TbGridDots } from "react-icons/tb";
 
-import Profile from "../assets/pfp.jpg";
+import Profile from "../assets/user.jpg";
 import ProfileRing from "../assets/profile-ring.svg";
 
 const ProfileIcon = () => {
